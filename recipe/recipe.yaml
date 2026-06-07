@@ -25,8 +25,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
-    - warp-lang >=1.11.0.dev20251205
-    - numpy
+    - warp-lang >=1.11.1
 tests:
   - python:
       imports:
